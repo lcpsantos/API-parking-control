@@ -80,8 +80,10 @@ public class ParkingSpotController {
         BeanUtils.copyProperties(parkingSpotDto, parkingSpotModel);
         parkingSpotModel.setId(parkingSpotModelOptional.get().getId());
         parkingSpotModel.setRegistrationDate(parkingSpotModelOptional.get().getRegistrationDate());
+
         /*
          ou
+
         var parkingSpotModel = parkingSpotModelOptional.get();
         parkingSpotModel.setParkingSpotNumber(parkingSpotDto.getParkingSpotNumber());
         parkingSpotModel.setLicensePlateCar(parkingSpotDto.getLicensePlateCar());
