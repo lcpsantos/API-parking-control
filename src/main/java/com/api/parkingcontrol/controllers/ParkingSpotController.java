@@ -82,7 +82,7 @@ public class ParkingSpotController {
         parkingSpotModel.setRegistrationDate(parkingSpotModelOptional.get().getRegistrationDate());
 
         /*
-         ou
+         ou setando todos os campos
 
         var parkingSpotModel = parkingSpotModelOptional.get();
         parkingSpotModel.setParkingSpotNumber(parkingSpotDto.getParkingSpotNumber());
